@@ -1,0 +1,43 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31329.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/kingpin/desktop/test_case/test_case/test_case.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "a3b98ab5c5962bb30e38c34dcc409da2ffe3460c94813fa1c736bd7864ebe6f4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kingpin/desktop/memory_management_dll/memory_management.h"
+          },
+          "hashes": {
+            "sha-256": "94d32e3a8398cb9cc98fa5320abf59c26fc8b4d6e40069c41696951b55766cc1"
+          }
+        }
+      ]
+    }
+  ]
+}

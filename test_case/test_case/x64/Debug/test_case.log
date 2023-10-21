@@ -1,0 +1,3 @@
+﻿  test_case.c
+test_case.obj : error LNK2019: unresolved external symbol __imp_my_free_all referenced in function main
+C:\Users\kingpin\Desktop\test_case\x64\Debug\test_case.exe : fatal error LNK1120: 1 unresolved externals
